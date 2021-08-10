@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 575px;
+    background: url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 69px;
+    background: blue;
+    text-align: center;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 25px;
+}
+section{
+    width: 78%;
+    height: 1043px;
+    background: red;
+    position: absolute;
+    margin: -221px 0px 0px 123px;
+}
+footer{
+    width: 100%;
+    height: 214px;
+    background: blue;
+    margin-top: 875px;
+}
+/*SCROLL*/
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+}
+
+/*
+    
+    
+ ____      ____  _____    _____      ___  ____    ________   _______     
+|_  _|    |_  _||_   _|  |_   _|    |_  ||_  _|  |_   __  | |_   __ \    
+  \ \  /\  / /    | |      | |        | |_/ /      | |_ \_|   | |__) |   
+   \ \/  \/ /     | |      | |   _    |  __'.      |  _| _    |  __ /    
+    \  /\  /     _| |_    _| |__/ |  _| |  \ \_   _| |__/ |  _| |  \ \_  
+     \/  \/     |_____|  |________| |____||____| |________| |____| |___| 
+                                                                         
+   
+*/
