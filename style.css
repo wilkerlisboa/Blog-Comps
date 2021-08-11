@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background: darkslategrey;
+}
 header{
     width: 100%;
-    height: 575px;
-    background: url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
+    height: 94vh;
+    background-image: url('https://images.unsplash.com/photo-1511649475669-e288648b2339?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 nav{
     width: 100%;
     height: 69px;
-    background: blue;
+    background: darkslategrey;
     text-align: center;
 }
 ul li{
@@ -25,11 +28,11 @@ ul li{
     padding: 25px;
 }
 section{
-    width: 78%;
+    width: 90%;
     height: 1043px;
     background: red;
     position: absolute;
-    margin: -221px 0px 0px 123px;
+    margin: -220px 0px 0px 60px;
 }
 footer{
     width: 100%;
