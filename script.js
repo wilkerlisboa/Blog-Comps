@@ -1,3 +1,16 @@
+const text =  "Seja bem vindo ao Blog"
+let index = 0;
+
+function writeText(){
+  document.getElementById("Phases").innerHTML = text.slice(0, index);
+  index++;
+
+  if(index > text.length -1){
+    index = 0;
+  }
+}
+setInterval(writeText, 200);
+
 /* 
         
     
