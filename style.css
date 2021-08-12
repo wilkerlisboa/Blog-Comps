@@ -40,7 +40,7 @@ ul li{
 .Img-Log{
     width: 112px;
     height: 34px;
-    background-image: url(./image/Comps.png);
+    background-image: url('./image/Comps.png');
     background-position: center center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -53,6 +53,14 @@ section{
     background: red;
     position: absolute;
     margin: -220px 0px 0px 60px;
+}
+#articles{
+    display: inline-flex;
+}
+.test{
+    width: 100px;
+    height: 300px;
+    background: white;
 }
 footer{
     width: 100%;
