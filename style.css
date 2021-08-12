@@ -37,6 +37,16 @@ ul li{
     color: white;
     padding: 25px;
 }
+.Img-Log{
+    width: 112px;
+    height: 34px;
+    background-image: url(./image/Comps.png);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 19px 0px 0px 60px;
+}
 section{
     width: 90%;
     height: 1043px;
