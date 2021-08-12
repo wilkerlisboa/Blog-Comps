@@ -1,4 +1,4 @@
-const text =  "Welcome to Blog   ";
+const text =  "Welcome to Comps   ";
 let index = 0;
 
 function writeText(){
