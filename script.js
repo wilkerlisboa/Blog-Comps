@@ -1,6 +1,7 @@
-const text =  "Welcome to Comps   ";
+const text =  "Welcome to Comps    ";
 let index = 0;
 
+//PHASES
 function writeText(){
   document.getElementById("Phases").innerHTML = text.slice(0, index);
   index++;
@@ -10,6 +11,12 @@ function writeText(){
   }
 }
 setInterval(writeText, 200);
+
+//SELECT 
+let selectEl = document.getElementsByTagName('select');
+selectEl[0].addEventListener('change', function() {
+  location.href=this.value;
+});
 
 /* 
         
