@@ -34,6 +34,7 @@ select{
 nav{
     width: 100%;
     height: 69px;
+    opacity: 530.1;
     background: darkslategrey;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
