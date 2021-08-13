@@ -63,7 +63,7 @@ section{
     position: absolute;
     margin: -220px 0px 0px 60px;
 }
-#articles{
+#First_articles{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -83,14 +83,31 @@ section{
     height: 326px;
     margin: 74px;
     margin-top: 260px;
+    box-shadow: 0px 48px 44px -53px #0000009e;
+    transition: all .4s;
+
 }
+/*Animation */
+.block:hover{
+    transform: translateY(-30px);
+  }
 .block_of_information{
-    width: 100%;
+    width: 98%;
     height: 103px;
     margin-top: 223px;
     background-color: white;
     border-color: white white red white;
     border-style: solid;
+}
+.title_of_block{
+    margin-top: 28px;
+    font-size: 17px;
+    border-style: solid;
+    border-color: gray white white white;
+    width: 125px;
+    margin-left: 46px;
+    padding: 17px;
+    font-family: 'Roboto Mono', monospace;
 }
 footer{
     width: 100%;
