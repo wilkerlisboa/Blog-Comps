@@ -123,6 +123,24 @@ section{
     margin-top: -372px;
     font-family: 'Roboto Mono', monospace;
 }
+.Second_block_of_information{
+    width: 98%;
+    height: 103px;
+    margin-top: 223px;
+    background-color: white;
+    border-color: white white blue white;
+    border-style: solid;
+}
+.Second_title_of_block{
+    margin-top: 28px;
+    font-size: 17px;
+    border-style: solid;
+    border-color: gray white white white;
+    width: 125px;
+    margin-left: 46px;
+    padding: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
 
 footer{
     width: 100%;
