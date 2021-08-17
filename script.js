@@ -21,14 +21,6 @@ selectEl[0].addEventListener('change', function() {
 
 
 
-
-
-
-
-
-
-
-
 /* 
         
     
