@@ -1,10 +1,22 @@
+const text =  "Welcome to Blog     ";
+let index = 0;
 
+//PHASES
+function writeText(){
+  document.getElementById("Phases").innerHTML = text.slice(0, index);
+  index++;
 
+  if(index > text.length -1){
+    index = 0;
+  }
+}
+setInterval(writeText, 200);
 
-
-
-
-
+//SELECT 
+let selectEl = document.getElementsByTagName('select');
+selectEl[0].addEventListener('change', function() {
+  location.href=this.value;
+});
 
 
 
