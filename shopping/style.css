@@ -64,6 +64,7 @@ section{
     margin: -220px 0px 0px 60px;
     text-align: center;
 }
+/*FIRST ARTICLE*/
 .First_article{
     display: flex;
     flex-direction: row;
@@ -97,6 +98,12 @@ section{
     margin-right: 47px;
     box-shadow: 0px 48px 44px -53px #0000009e;
     transition: all .4s;
+}
+.block_information{
+    width: 100%;
+    height: 88px;
+    margin-top: 279px;
+    background: white;
 }
 /*Animation */
 .block_of_protuct_second:hover{
