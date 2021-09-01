@@ -41,6 +41,13 @@ body{
         align-items: center;
         text-align: center;
         align-content: center;
+        margin: -44px 0px 0px -64px;
+    }
+    .Second_title_Articles {
+        position: absolute;
+        font-size: 35px;
+        margin-top: -1699px;
+        font-family: 'Roboto Mono', monospace;
     }
     select {
         position: absolute;
